@@ -1,0 +1,366 @@
+﻿.genel {
+    width: 100%;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 175px;
+    background-color: #FFDB58;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.navbar {
+    width: 400px;
+    height: 175px;
+    float: left;
+}
+
+    .navbar ul li {
+        list-style-type: none;
+        float: left;
+        padding: 15px;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        border-left: outset;
+        margin-top: 30px;
+    }
+
+.slider {
+    width: 100%;
+    height: 400px;
+}
+
+.sliderimg {
+    width: 100%;
+    height: 400px;
+}
+
+.menu {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+}
+
+    .menu h3 {
+        padding-top: 50px;
+        padding-left: 530px;
+    }
+
+.menu1 {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #FFDB58;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+    .menu1 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .menu1 h4 {
+        padding-left: 100px;
+        font-size: 15px;
+        font-family: Arial;
+    }
+
+    .menu1 p {
+        font-family: Arial;
+        padding: 10px;
+    }
+
+    .menu1 input {
+        margin-left: 100px;
+    }
+
+.menu2 {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #FFDB58;
+    margin: 20px;
+}
+
+    .menu2 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .menu2 h4 {
+        padding-left: 120px;
+        font-size: 15px;
+        font-family: Arial;
+    }
+
+    .menu2 p {
+        font-family: Arial;
+        padding: 10px;
+    }
+
+    .menu2 input {
+        float: left;
+        margin-left: 110px;
+        margin-bottom: 50px;
+    }
+
+.menu3 {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #FFDB58;
+    margin: 20px;
+}
+
+    .menu3 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .menu3 h4 {
+        padding-left: 100px;
+        font-size: 15px;
+        font-family: Arial;
+    }
+
+    .menu3 p {
+        font-family: Arial;
+        padding: 10px;
+    }
+
+    .menu3 input {
+        margin-left: 110px;
+    }
+
+.icecekler {
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+}
+
+.menuismi {
+    width: 100%;
+    height: 50px;
+    margin-top: 150px;
+}
+
+    .menuismi h3 {
+        padding-top: 50px;
+        padding-left: 580px;
+    }
+
+.icecek1 {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #FFDB58;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+    .icecek1 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .icecek1 h4 {
+        padding-left: 100px;
+        font-size: 15px;
+        font-family: Arial;
+    }
+
+    .icecek1 p {
+        font-family: Arial;
+        padding: 10px;
+    }
+
+    .icecek1 input {
+        margin-left: 100px;
+    }
+
+.icecek2 {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #FFDB58;
+    margin: 20px;
+}
+
+    .icecek2 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .icecek2 h4 {
+        padding-left: 120px;
+        font-size: 15px;
+        font-family: Arial;
+    }
+
+    .icecek2 p {
+        font-family: Arial;
+        padding: 10px;
+    }
+
+    .icecek2 input {
+        float: left;
+        margin-left: 110px;
+        margin-bottom: 50px;
+    }
+
+.icecek3 {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #FFDB58;
+    margin: 20px;
+}
+
+    .icecek3 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .icecek3 h4 {
+        padding-left: 100px;
+        font-size: 15px;
+        font-family: Arial;
+    }
+
+    .icecek3 p {
+        font-family: Arial;
+        padding: 10px;
+    }
+
+    .icecek3 input {
+        margin-left: 110px;
+    }
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFDB58;
+}
+
+    .footer h4 {
+        margin-left: 200px;
+        float: left;
+        padding: 10px;
+    }
+
+.iletisim {
+    float: left;
+    padding: 50px;
+    width: 60%;
+    height: 500px;
+    background-color: #FFDB58;
+}
+
+    .iletisim input {
+        margin-left: 50px;
+        padding: 15px;
+    }
+
+    .iletisim textarea {
+        margin-left: 50px;
+        padding: 15px;
+    }
+
+.isim {
+    height: 100px;
+    font-size: 25px;
+}
+
+.tel {
+    height: 100px;
+    font-size: 25px;
+}
+
+.mail {
+    height: 100px;
+    font-size: 25px;
+}
+
+.textare {
+    height: 100px;
+    font-size: 25px;
+}
+
+.buton {
+    height: 100px;
+    font-size: 25px;
+    margin-left: 180px;
+}
+
+.resim {
+    background-color: #FFDB58;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+    .resim img {
+        width: 50%;
+        height: auto;
+    }
+
+.about {
+    width: 50%;
+    height: 300px;
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 300px;
+    background-image: url('https://i.hizliresim.com/towhbp7.png');
+    background-position: center;
+    background-size: cover;
+}
+
+    .about p {
+        padding: 20px;
+        font-size: larger;
+        font-family: Arial;
+        color: black;
+    }
+
+    .about h3 {
+        padding: 20px;
+        padding-left: 240px;
+    }
+
+    .about img {
+        opacity: 10;
+        width: 50%;
+        height: 300px;
+        margin-left: 340px;
+    }
+
+.gecmis {
+    padding: 20px;
+    background-color: #FFDB58;
+}
+
+    .gecmis p {
+        width:100%;
+        padding-bottom: 20px;
+        border-bottom: solid;
+    }
+
+    .gecmis h2 {
+        padding-left:550px;
+    }

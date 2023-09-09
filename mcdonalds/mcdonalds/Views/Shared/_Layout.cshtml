@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+</head>
+<body>  
+    <div class="genel">
+        <div class="header">
+            <div class="logo">
+                <img src="~/img/Mcdonalds-Logo-PNG-Picture.png" alt="mcdonalds" />
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="@Url.Action("Index","Home")">Ana Sayfa</a></li>
+                    <li><a href="@Url.Action("AboutUs","Home")">Hakkımızda</a></li>
+                    <li><a href="@Url.Action("Contact","Home")">İletişim</a></li>
+                </ul>
+            </div>
+
+        </div>
+        @RenderBody()
+
+        <div class="footer">
+            <h4>Copyright McDonalds</h4>
+            <h4>0212334553</h4>
+            <h4>mcdonalds@gmail.com</h4>
+        </div>
+    </div>
+        
+            
+
+
+        @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>*@
+</body>
+</html>
